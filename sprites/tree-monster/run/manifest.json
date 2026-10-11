@@ -1,0 +1,268 @@
+{
+  "characterId": "tree-monster",
+  "engine": "component-row",
+  "game_input": "sprite-sheet-alpha.png",
+  "degraded_static_fallback": false,
+  "curation_applied": false,
+  "frame_variant": "pixel",
+  "sprite_sheet_alpha": "sprite-sheet-alpha.png",
+  "sprite_sheet_alpha_report": "sprite-sheet-alpha.report.json",
+  "base_image": "base-source.png",
+  "cell": {
+    "shape": "square",
+    "width": 640,
+    "height": 640,
+    "safe_margin_x": 60,
+    "safe_margin_y": 60,
+    "size": 640,
+    "safe_margin": 60
+  },
+  "chroma_key": {
+    "name": "magenta",
+    "hex": "#FF00FF",
+    "rgb": [
+      255,
+      0,
+      255
+    ],
+    "selection": "manual"
+  },
+  "animation": {
+    "cellWidth": 640,
+    "cellHeight": 640,
+    "columns": 8,
+    "rows": {
+      "idle": {
+        "row": 0,
+        "frames": 4,
+        "fps": 4,
+        "durations_ms": [
+          250,
+          250,
+          250,
+          250
+        ],
+        "loop": true,
+        "frame_variant": "pixel"
+      },
+      "walk": {
+        "row": 1,
+        "frames": 8,
+        "fps": 12,
+        "durations_ms": [
+          83,
+          83,
+          83,
+          83,
+          83,
+          83,
+          83,
+          83
+        ],
+        "loop": true,
+        "frame_variant": "pixel"
+      },
+      "attack": {
+        "row": 2,
+        "frames": 4,
+        "fps": 5,
+        "durations_ms": [
+          200,
+          200,
+          200,
+          200
+        ],
+        "loop": false,
+        "frame_variant": "pixel"
+      },
+      "hurt": {
+        "row": 3,
+        "frames": 4,
+        "fps": 10,
+        "durations_ms": [
+          100,
+          100,
+          100,
+          100
+        ],
+        "loop": false,
+        "frame_variant": "pixel"
+      },
+      "jump": {
+        "row": 4,
+        "frames": 4,
+        "fps": 8,
+        "durations_ms": [
+          125,
+          125,
+          125,
+          125
+        ],
+        "loop": false,
+        "frame_variant": "pixel"
+      }
+    }
+  },
+  "frame_layout": {
+    "sheetWidth": 5120,
+    "sheetHeight": 3200,
+    "cellWidth": 640,
+    "cellHeight": 640,
+    "rows": {
+      "idle": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 640,
+          "y": 0,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 1280,
+          "y": 0,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 1920,
+          "y": 0,
+          "w": 640,
+          "h": 640
+        }
+      ],
+      "walk": [
+        {
+          "x": 0,
+          "y": 640,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 640,
+          "y": 640,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 1280,
+          "y": 640,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 1920,
+          "y": 640,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 2560,
+          "y": 640,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 3200,
+          "y": 640,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 3840,
+          "y": 640,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 4480,
+          "y": 640,
+          "w": 640,
+          "h": 640
+        }
+      ],
+      "attack": [
+        {
+          "x": 0,
+          "y": 1280,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 640,
+          "y": 1280,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 1280,
+          "y": 1280,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 1920,
+          "y": 1280,
+          "w": 640,
+          "h": 640
+        }
+      ],
+      "hurt": [
+        {
+          "x": 0,
+          "y": 1920,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 640,
+          "y": 1920,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 1280,
+          "y": 1920,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 1920,
+          "y": 1920,
+          "w": 640,
+          "h": 640
+        }
+      ],
+      "jump": [
+        {
+          "x": 0,
+          "y": 2560,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 640,
+          "y": 2560,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 1280,
+          "y": 2560,
+          "w": 640,
+          "h": 640
+        },
+        {
+          "x": 1920,
+          "y": 2560,
+          "w": 640,
+          "h": 640
+        }
+      ]
+    }
+  }
+}
